@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ffcc00;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #ffaa00;
+}
+
+#timer {
+  font-size: 100px;
+  color: #ff3333;
+  font-weight: bold;
+}
+
+.friend-photo {
+  width: 280px;
+  border-radius: 12px;
+  margin: 20px 0;
+  border: 3px solid #ffcc00;
+  box-shadow: 0px 0px 25px #ffaa00;
+}
+
+.cake {
+  font-size: 100px;
+  margin: 20px 0;
+  animation: bounce 1.5s infinite;
+}
+
+.cat {
+  width: 220px;
+  margin-top: 30px;
+  animation: dance 1.5s infinite alternate;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes dance {
+  0% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
