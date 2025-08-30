@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="start">
+    <h1>Before the surprise...</h1>
+    <p>What’s his dream?</p>
+    <select id="dream">
+      <option value="">-- choose one --</option>
+      <option value="Future Contractor">Future Contractor</option>
+      <option value="Illegal Businessman">Illegal Businessman</option>
+      <option value="Illegal Dealer">Illegal Dealer</option>
+    </select>
+    <button onclick="startSurprise()">Submit</button>
+  </div>
+
+  <div class="container hidden" id="dark">
+    <h2>Hmm... interesting choice 😈</h2>
+    <p>Loading surprise...</p>
+  </div>
+
+  <div class="container hidden" id="countdown">
+    <h2>Get ready for the REAL surprise 🎁</h2>
+    <h1 id="timer">10</h1>
+  </div>
+
+  <div class="container hidden" id="final">
+    <h1>🎉 Happy Birthday 🎉</h1>
+    <img src="IMG_20250609_181050_434.jpg" alt="Friend" class="friend-photo">
+    <div class="cake">🎂</div>
+    <h2>Our Future Il/Legal Business Owner 🥺🥺</h2>
+    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" class="cat" alt="Dancing Cat">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
